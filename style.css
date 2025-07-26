@@ -1,0 +1,49 @@
+/* stylesheet */
+
+body {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 400px;
+
+}
+
+.header {
+    background-color: #3B2F2F;
+    display: flex;
+    justify-content: space-around;
+    border: solid 1px red;
+    align-items: center;
+    height: 50px;
+}
+
+.description {
+    background-color: #3B2F2F;
+    display: flex;
+}
+
+.info-section {
+    display: flex;
+}
+
+.quote-section {
+    background-color: #FFF8F0;
+    display: flex;
+}
+
+.sign-up {
+    background-color: #C97C5D;
+}
+
+.footer {
+    background-color: #3B2F2F;
+}
+
+h1 {
+    font-size: 48px;
+    color: #FFF8F0;
+    font-weight: 900;
+}

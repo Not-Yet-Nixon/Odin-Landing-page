@@ -7,31 +7,97 @@ body {
 }
 
 img {
-    max-width: 400px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.logo img {
+    display: flex;
+    min-width: 48px;
+    /* border: solid 2px red; */
 
 }
 
 .header {
     background-color: #3B2F2F;
     display: flex;
-    justify-content: space-around;
-    border: solid 1px red;
+    justify-content: space-between;
+    /* border: solid 1px red; */
     align-items: center;
     height: 50px;
+    padding: 0px 30px;
 }
 
 .description {
+    /* border: solid 2px blue; */
     background-color: #3B2F2F;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+p {
+    color: #D8CAB8;
+}
+
+.crop-box-1 img {
+    /* padding: 30px; */
+    border-radius: 10px;
+    /* border: solid 1px red; */
+    margin: 30px;
+}
+
+.latte{
+    border-radius: 10px;
+    
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    max-width: 450px;
+    /* border: solid 3px red; */
 }
 
 .info-section {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .quote-section {
     background-color: #FFF8F0;
     display: flex;
+    flex-direction: column;
+    min-height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section p {
+    /* border: solid red; */
+    max-width: 800px;
+    margin: 20px;
+    color: #5C4033;
+}
+
+.align-r {
+    display: flex;
+    align-self: flex-end;
+    padding-right: 100px;
+    
 }
 
 .sign-up {
@@ -46,4 +112,17 @@ h1 {
     font-size: 48px;
     color: #FFF8F0;
     font-weight: 900;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: #D8CAB8;
 }

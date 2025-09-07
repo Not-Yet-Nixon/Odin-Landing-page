@@ -51,7 +51,6 @@ p {
 
 .latte{
     border-radius: 10px;
-    
 }
 
 .left-side {
@@ -91,6 +90,7 @@ p {
     max-width: 800px;
     margin: 20px;
     color: #5C4033;
+    font-size: 24px;
 }
 
 .align-r {

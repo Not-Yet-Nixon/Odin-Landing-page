@@ -10,13 +10,17 @@ body {
 
 img {
     max-width: 300px;
-    border-radius: 10px;
+    border-radius: 50%;
+    border: solid 10px #FFF8F0;
+    /* overflow: hidden; */
+
 }
 
 .logo img {
     display: flex;
     min-width: 48px;
-    /* border: solid 2px red; */
+    border-radius: 0;
+    border: 0;
 
 }
 
@@ -41,13 +45,13 @@ img {
 }
 
 p {
-    color: #D8CAB8;
+    color: #FFF8F0;
 }
 
 .crop-box-1 img {
     /* padding: 30px; */
     border-radius: 10px;
-    /* border: solid 1px red; */
+    border: 0;
     margin: 30px;
 }
 
@@ -112,7 +116,7 @@ p {
 }
 .sign-up {
     background-color: #C97C5D;
-    border-radius: 10px;
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,9 +127,39 @@ p {
     margin: 100px ;
 }
 
+.left-side {
+    /* border: solid red; */
+    align-items: flex-start;
+    margin-right: 50px;
+}
+
+.left-side h3 {
+    /* border: solid black; */
+    margin: 0px;
+}
+
+.left-side p {
+    /* border: solid black; */
+    margin: 0px;
+}
+
+button {
+    border: solid 2px #FFF8F0;
+    border-radius: 7px;
+    height: 30px;
+    width: 100px;
+    margin-right: 25px;
+    background-color: #C97C5D;
+    color: #FFF8F0;
+}
+
 .footer {
     background-color: #3B2F2F;
-    min-height: 75px;
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D8CAB8;
 }
 
 h1 {
